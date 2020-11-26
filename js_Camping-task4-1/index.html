@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+   
+  </head>
+  <body onload="setCurrentUser(current)">
+    <div class="chat">
+      <div class="chat-header">
+        <div class="chat-header__logo">
+          <span class="my">My</span><span class="chat-text">Chat</span>
+        </div>
+        <div class="chat-header__user-info">
+        </div>
+      </div>
+      <div class="chat-main">
+        <div class="chat-main__menu">
+          <div class="chat-main__menu-filter">
+            <form class="chat-main__menu-filter-item message-filter">
+              <div class="chat-main__menu-filter-item-image" id="message"></div>
+              <input
+                type="text"
+                class="message-filter-input"
+                placeholder="Type Something"
+              />
+            </form>
+            <form class="chat-main__menu-filter-item user-filter">
+              <div class="chat-main__menu-filter-item-image" id="user"></div>
+              <input
+                type="text"
+                class="user-filter-input"
+                placeholder="Type Something"
+              />
+            </form>
+            <form class="chat-main__menu-filter-item date-filter">
+              <div class="chat-main__menu-filter-item-image" id="date"></div>
+              <input
+                type="date"
+                class="date-filter-input"
+                placeholder="Type Something"
+              />
+            </form>
+          </div>
+          <div class="chat-main__menu-online-users">
+          </div>
+        </div>
+        <div class="chat-main__dialog">
+          <div class="chat-main__dialog-wrapper">
+            <div class="chat-main__dialog-message-container">
+            </div>
+            <div class="chat-main__dialog-push-messages">
+              <button type="submit" name="push"></button>
+            </div>
+          </div>
+          <form class="chat-main__dialog-input" onsubmit="" >
+            <input type="text" class="main-input" />
+            <button type="submit" class="main-input-submit"></button>
+          </form>
+        </div>
+      </div>
+      <div class="chat-footer">
+        <pre>
+            My chat 2020
+          By Alex Protasov
+      mister.protasov@gmail.com
+        All Rights Recieved
+        </pre>
+      </div>
+    </div>
+  </body>
+   <script src="indexx.js"></script>
+</html>
